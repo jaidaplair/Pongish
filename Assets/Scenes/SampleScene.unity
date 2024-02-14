@@ -241,7 +241,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.71776104, y: 4.979767}
+  m_Offset: {x: -3.461544, y: 0.8004532}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -252,7 +252,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 36.53195, y: 320.26312}
+  m_Size: {x: 44.890564, y: 345.33893}
   m_EdgeRadius: 0
 --- !u!114 &174819505
 MonoBehaviour:
@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 326496034}
   - component: {fileID: 326496041}
   - component: {fileID: 326496040}
+  - component: {fileID: 326496042}
   m_Layer: 0
   m_Name: ball red
   m_TagString: Untagged
@@ -537,6 +538,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.12539028}
   serializedVersion: 2
   m_Radius: 10.038052
+--- !u!114 &326496042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326496033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0989a9d11bdf4c46b392769f55622e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &334635884
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,7 +562,7 @@ GameObject:
   - component: {fileID: 334635885}
   m_Layer: 0
   m_Name: Square
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -615,7 +628,7 @@ Transform:
   m_GameObject: {fileID: 334635884}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.05, y: 0, z: 0}
   m_LocalScale: {x: 19.084, y: 19.084, z: 19.084}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -634,7 +647,7 @@ GameObject:
   - component: {fileID: 426737583}
   m_Layer: 0
   m_Name: horz_wall bottom
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,10 +867,9 @@ GameObject:
   - component: {fileID: 525236689}
   - component: {fileID: 525236688}
   - component: {fileID: 525236690}
-  - component: {fileID: 525236691}
   m_Layer: 0
   m_Name: vert_wall left
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -974,18 +986,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 4.16}
   m_EdgeRadius: 0
---- !u!114 &525236691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525236687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 020918dc1ed825b4b9f879b15a12f87f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1326952458
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 1326952461}
   m_Layer: 0
   m_Name: horz_wall top
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1129,7 +1129,7 @@ GameObject:
   - component: {fileID: 1391893717}
   m_Layer: 0
   m_Name: vert_wall right
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1343,9 +1343,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ab68045044a10a44790f6ffeb3219951, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.35
+  m_Volume: 0.755
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1545,7 +1545,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -6.197529, y: 9.741837}
+  m_Offset: {x: -6.197529, y: -0.0098724365}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1556,7 +1556,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 49.927032, y: 288.3843}
+  m_Size: {x: 49.927032, y: 335.74973}
   m_EdgeRadius: 0
 --- !u!114 &1814968928
 MonoBehaviour:
@@ -1584,6 +1584,7 @@ GameObject:
   - component: {fileID: 1971584336}
   - component: {fileID: 1971584341}
   - component: {fileID: 1971584342}
+  - component: {fileID: 1971584343}
   m_Layer: 0
   m_Name: ball silver
   m_TagString: Untagged
@@ -1828,6 +1829,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 16
+--- !u!114 &1971584343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971584335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0989a9d11bdf4c46b392769f55622e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

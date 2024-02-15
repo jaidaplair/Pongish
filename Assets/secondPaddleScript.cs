@@ -19,7 +19,7 @@ public class secondPaddleScript : MonoBehaviour
             if (transform.position.y >= 2.29f)
             {
                 var x = transform.position.x;
-                transform.transform.position = new Vector3(x, 2.29f, 0f);
+                transform.transform.position = new Vector3(x, 2.29f*Time.deltaTime, 0f);
             }
         }
         if (Input.GetKey(KeyCode.DownArrow))

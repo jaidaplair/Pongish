@@ -11,7 +11,7 @@ public class ballController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();//get a reference to our rb        
 
         //set velocity
-        rb.velocity = new Vector2(Random.Range(-30f, 30f), Random.Range(-30f,30f)* Time.deltaTime);
+        rb.velocity = new Vector3(Random.Range(-700f, 700f), Random.Range(-700f, 700f)) * Time.deltaTime;
 
         AudioSource audioSource;//reference to audio source
         audioSource = GetComponent<AudioSource>();

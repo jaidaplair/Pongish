@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 326496040}
   - component: {fileID: 326496042}
   m_Layer: 0
-  m_Name: ball red
+  m_Name: baseball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,7 +1343,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ab68045044a10a44790f6ffeb3219951, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.755
+  m_Volume: 0.832
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1586,7 +1586,7 @@ GameObject:
   - component: {fileID: 1971584342}
   - component: {fileID: 1971584343}
   m_Layer: 0
-  m_Name: ball silver
+  m_Name: basketball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1604,7 +1604,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7869a1c148e735742b9049ac493b58c1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.65
+  m_Volume: 0.535
   m_Pitch: 1
   Loop: 0
   Mute: 0

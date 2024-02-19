@@ -266,6 +266,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bdee8d4bfd3bae4e9acf3e01759c333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  maxY: 2.29
+  minY: -2.4
 --- !u!1 &326496033
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9f301936f4f67044a2acbe2d93240a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  maxY: 2.29
+  minY: -2.4
 --- !u!58 &326496041
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1570,6 +1576,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9f301936f4f67044a2acbe2d93240a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  maxY: 2.29
+  minY: -2.4
 --- !u!1 &1971584335
 GameObject:
   m_ObjectHideFlags: 0
